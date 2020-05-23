@@ -16,7 +16,7 @@ For example: after
   <pre>
 http: // localhost: 8080 / clients / 1.</p>
 </pre>
-<p>4.Request for the POST method:</p>
+<p>4.Request for the <h5>POST</h5> method:</p>
 <pre>
 <p>{
   "name" : "Peter",
@@ -24,7 +24,7 @@ http: // localhost: 8080 / clients / 1.</p>
   "phone" : "+37529 674 74 87"
 }</p>
 </pre>
-<p>5.We create several clients in this way. Then we change the request type to GET and send it to the server:</p>
+<p>5.We create several clients in this way. Then we change the request type to <h5>GET</h5> and send it to the server:</p>
 <pre>
 <p>
 [
@@ -49,7 +49,7 @@ http: // localhost: 8080 / clients / 1.</p>
 ]
 </p>
 </pre>
-<p>6.PUT Method:</p>
+<p>6.<h5>PUT</h5> Method:</p>
 <p>Add via / the desired ID and write a field in which we change the data.</p>
 <pre>
 <p>http://localhost:8080/clients/1</p>
@@ -58,6 +58,11 @@ http: // localhost: 8080 / clients / 1.</p>
 	"name" : "Peter334455"
 }
 </p>
+</pre>
+<p>7.<h5>Delete</h5> Method:</p>
+<p>To delete, you also need to finish the desired ID.</p>
+<pre>
+<p>http://localhost:8080/clients/1</p>
 </pre>
 <h3>IDE</h3>
 Import the project into your IDE and run it as a Spring Boot Application. <br>

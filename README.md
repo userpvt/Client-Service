@@ -5,7 +5,7 @@
 <p>1.In this project, I showed the work of RESTful service methods: GET / POST / PUT / DELETE.</p>
 <p>2.I used something similar to a client service. Using queries through Postman, you can manage your data.</p>
 <p>3.Project structure: model, controller and service.</p>
-<p>4.In the project I used only Getter and Setter, therefore I didn’t connect the “lomb” in the dependencies, since there was no need.</p>
+<p>4.In the project I used only Getter and Setter, therefore I didn’t connect the lombok in the dependencies, since there was no need.</p>
 <h3>The commands and requests for working with Postman that I used:</h3>
 <p>1.Methods: POST/GET/PUT/DELETE</p>
 <p>2.URI: <pre>

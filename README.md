@@ -16,5 +16,14 @@ For example: after
   <pre>
 http: // localhost: 8080 / clients / 1.</p>
 </pre>
+<p>4.Request for the POST method:</p>
+<pre>
+<p>{
+  "name" : "Peter",
+  "email" : "peter@gmail.com",
+  "phone" : "+37529 674 74 87"
+}</p>
+</pre>
+
 <h3>IDE</h3>
 Import the project into your IDE and run it as a Spring Boot Application. <br>

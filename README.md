@@ -24,7 +24,7 @@ http: // localhost: 8080 / clients / 1.</p>
   "phone" : "+37529 674 74 87"
 }</p>
 </pre>
-<p>4.We create several clients in this way. Then we change the request type to GET and send it to the server:</p>
+<p>5.We create several clients in this way. Then we change the request type to GET and send it to the server:</p>
 <pre>
 <p>
 [
@@ -47,6 +47,16 @@ http: // localhost: 8080 / clients / 1.</p>
 	"phone" : "+37533 123 45 67"
 }
 ]
+</p>
+</pre>
+<p>6.PUT Method:</p>
+<p>Add via / the desired ID and write a field in which we change the data.</p>
+<pre>
+<p>http://localhost:8080/clients/1</p>
+<p>
+{
+	"name" : "Peter334455"
+}
 </p>
 </pre>
 <h3>IDE</h3>

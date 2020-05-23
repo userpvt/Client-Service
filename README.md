@@ -24,6 +24,30 @@ http: // localhost: 8080 / clients / 1.</p>
   "phone" : "+37529 674 74 87"
 }</p>
 </pre>
-
+<p>4.We create several clients in this way. Then we change the request type to GET and send it to the server:</p>
+<pre>
+<p>
+[
+{
+	"id" : "1",
+	"name" : "Peter",
+	"email" : "peter33@gmail.com",
+	"phone" : "+37529 123 45 67"
+},
+{
+	"id" : "2",
+	"name" : "Andre",
+	"email" : "andre22@gmail.com",
+	"phone" : "+37529 567 84 32"
+},
+{
+	"id" : "3",
+	"name" : "Margo",
+	"email" : "margo@gmail.com",
+	"phone" : "+37533 123 45 67"
+}
+]
+</p>
+</pre>
 <h3>IDE</h3>
 Import the project into your IDE and run it as a Spring Boot Application. <br>
